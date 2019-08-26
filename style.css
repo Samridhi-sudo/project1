@@ -1,0 +1,122 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+header
+{
+	background-image: url(background.png);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.main-nav
+{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+
+.main-nav li
+{
+	display: inline-block;
+}
+.main-nav li a
+{
+	color: red;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: "Roboto", sans-serif;
+	font size: 15px;
+}
+
+
+.main-nav li.active a
+{
+	border: 1px solid red;
+}
+
+
+
+.logo img
+{
+	width: 150px;
+	height: auto;
+	float: left;
+}
+
+.sam
+{
+	position: absolute;
+	width: 1200px;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+
+h1
+{
+	color: red;
+	text-transform: uppercase;
+	font-size: 100px;
+	text-align: center;
+	margin-top: 275px;
+}
+
+.button
+{
+	margin-top: 30px;
+	margin-left: 440px;
+}
+
+.btn
+{
+	border: 1px solid yellow;
+	padding: 10px 30px;
+	color: red;
+	text-decoration: none;
+	margin-right: 5px;
+	font-size: 13px;
+	text-transform: uppercase;
+
+}
+
+.animation{
+             -webkit-transition: transform .2s linear;
+             -moz-transition: transition .2s linear;
+             -o-transition: transition: transform .2s linear;
+             transition: transform .2s linear;
+}
+
+.animation:hover 
+{
+	-webkit-transform: scale(1.2) rotate(360deg);
+	-moz-transform: scale(1.2)rotate(360deg);
+	-o-transform: scale(1.2) rotate(360deg);
+	transform: scale(1.2)rotate(360deg);
+}
+.btn-one
+{
+	background-color: darkorange;
+}
+
+.btn-two
+{
+	background-color: darkorange;
+}
+}
+section{
+	height: 100vh;
+	border: 1px solid black;
+	display: flex;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#round{
+	background-color:#D3D3D3;
+}
